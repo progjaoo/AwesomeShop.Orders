@@ -3,6 +3,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using Microsoft.Extensions.DependencyInjection;
 using MongoDB.Driver;
+using MongoDB.Bson;
+using AwesomeShop.Services.Orders.Core.Repositories;
+using AwesomeShop.Orders.Infrastructure.Persistence.Repositories;
 
 namespace AwesomeShop.Orders.Infrastructure
 {
@@ -26,7 +29,23 @@ namespace AwesomeShop.Orders.Infrastructure
                 return new MongoClient(options.ConnectionString);
 
             });
+            services.AddTransient(sp =>
+            {
+                BsonDefaults.GuidRepresentation = GuidRepresentation.Standard;
+
+                var options = sp.GetRequiredService<MongoDbOptions>();
+                var MongoClient = sp.GetService<IMongoClient>();
+
+                return MongoClient.GetDatabase(options.Database);
+            });
             return services;
         }
+        public static IServiceCollection AddRepositories(this IServiceCollection services)
+        {
+            services.AddScoped<IOrderRepository, OrderRepository>();
+
+            return services;
+        }
+
     }
 }

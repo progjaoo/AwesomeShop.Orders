@@ -10,7 +10,7 @@ builder.Services.AddControllers();
 //CLASSE EXTENSIONS
 builder.Services.AddHandlers();
 builder.Services.AddMongo();
-
+builder.Services.AddRepositories();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
