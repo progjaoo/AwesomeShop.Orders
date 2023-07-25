@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using AwesomeShop.Orders.Application.Commands;
 using AwesomeShop.Orders.Application.Queries;
 using MediatR;
@@ -31,6 +27,7 @@ namespace AwesomeShop.Services.Orders.API.Controllers
 
             return Ok(result);
         }
+
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] AddOrder command)
         {
