@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AwesomeShop.Orders.Application\AwesomeShop.Orders.Application.csproj" />
+    <ProjectReference Include="..\AwesomeShop.Orders.Infrastructure\AwesomeShop.Orders.Infrastructure.csproj" />
     <ProjectReference Include="..\AwesomeShop.Services.Orders.Core\AwesomeShop.Services.Orders.Core.csproj" />
   </ItemGroup>
 </Project>

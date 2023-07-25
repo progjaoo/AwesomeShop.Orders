@@ -1,4 +1,5 @@
 using AwesomeShop.Orders.Application;
+using AwesomeShop.Orders.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +9,7 @@ builder.Services.AddControllers();
 
 //CLASSE EXTENSIONS
 builder.Services.AddHandlers();
+builder.Services.AddMongo();
 
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

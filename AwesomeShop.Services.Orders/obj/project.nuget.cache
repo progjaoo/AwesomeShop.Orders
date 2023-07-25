@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZzHOsgEb7lDjpoVN37Zv79HqR66FvSb5QUW7ck9XfXNfITr6TSv2IZ1Gl81YGquhNnRrg8Likzvfa+v8QXzJHA==",
+  "dgSpecHash": "EmhaXW6vc4mY0jwxhcsYSsfDpu0sPLInIrkkLdvXKOxkPDuGIOlPn1/a2L5VpTX5YKKVls2nUi2/gn2u1Avq1w==",
   "success": true,
-  "projectFilePath": "D:\\Método.NETDireto\\Curso completo (Slides - vídeos)\\4 - FORMAÇÃO MICROSSERVIÇOS\\Projetos\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders.API.csproj",
+  "projectFilePath": "d:\\Método.NETDireto\\Curso completo (Slides - vídeos)\\4 - FORMAÇÃO MICROSSERVIÇOS\\Projetos\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaom\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\joaom\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",

@@ -580,8 +580,7 @@
           }
         },
         "build": {
-          "build/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.props": {},
-          "build/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.targets": {}
+          "build/netstandard2.0/_._": {}
         }
       },
       "Microsoft.AspNetCore.Mvc.RazorPages/2.2.0": {
@@ -663,10 +662,10 @@
       "Microsoft.AspNetCore.Razor.Design/2.2.0": {
         "type": "package",
         "build": {
-          "build/netstandard2.0/Microsoft.AspNetCore.Razor.Design.props": {}
+          "build/netstandard2.0/_._": {}
         },
         "buildMultiTargeting": {
-          "buildMultiTargeting/Microsoft.AspNetCore.Razor.Design.props": {}
+          "buildMultiTargeting/_._": {}
         }
       },
       "Microsoft.AspNetCore.Razor.Language/2.2.0": {
@@ -3446,6 +3445,16 @@
         },
         "runtime": {
           "bin/placeholder/AwesomeShop.Orders.Application.dll": {}
+        }
+      },
+      "AwesomeShop.Orders.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AwesomeShop.Orders.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AwesomeShop.Orders.Infrastructure.dll": {}
         }
       },
       "AwesomeShop.Services.Orders.Core/1.0.0": {
@@ -9699,6 +9708,11 @@
       "path": "../AwesomeShop.Orders.Application/AwesomeShop.Orders.Application.csproj",
       "msbuildProject": "../AwesomeShop.Orders.Application/AwesomeShop.Orders.Application.csproj"
     },
+    "AwesomeShop.Orders.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../AwesomeShop.Orders.Infrastructure/AwesomeShop.Orders.Infrastructure.csproj",
+      "msbuildProject": "../AwesomeShop.Orders.Infrastructure/AwesomeShop.Orders.Infrastructure.csproj"
+    },
     "AwesomeShop.Services.Orders.Core/1.0.0": {
       "type": "project",
       "path": "../AwesomeShop.Services.Orders.Core/AwesomeShop.Services.Orders.Core.csproj",
@@ -9708,9 +9722,9 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "AwesomeShop.Orders.Application >= 1.0.0",
+      "AwesomeShop.Orders.Infrastructure >= 1.0.0",
       "AwesomeShop.Services.Orders.Core >= 1.0.0",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 11.1.0",
-      "Microsoft.AspNetCore.Mvc >= 2.2.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -9721,11 +9735,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Método.NETDireto\\Curso completo (Slides - vídeos)\\4 - FORMAÇÃO MICROSSERVIÇOS\\Projetos\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders.API.csproj",
+      "projectUniqueName": "d:\\Método.NETDireto\\Curso completo (Slides - vídeos)\\4 - FORMAÇÃO MICROSSERVIÇOS\\Projetos\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders.API.csproj",
       "projectName": "AwesomeShop.Services.Orders.API",
-      "projectPath": "D:\\Método.NETDireto\\Curso completo (Slides - vídeos)\\4 - FORMAÇÃO MICROSSERVIÇOS\\Projetos\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders.API.csproj",
+      "projectPath": "d:\\Método.NETDireto\\Curso completo (Slides - vídeos)\\4 - FORMAÇÃO MICROSSERVIÇOS\\Projetos\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders.API.csproj",
       "packagesPath": "C:\\Users\\joaom\\.nuget\\packages\\",
-      "outputPath": "D:\\Método.NETDireto\\Curso completo (Slides - vídeos)\\4 - FORMAÇÃO MICROSSERVIÇOS\\Projetos\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders\\obj\\",
+      "outputPath": "d:\\Método.NETDireto\\Curso completo (Slides - vídeos)\\4 - FORMAÇÃO MICROSSERVIÇOS\\Projetos\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9746,8 +9760,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Método.NETDireto\\Curso completo (Slides - vídeos)\\4 - FORMAÇÃO MICROSSERVIÇOS\\Projetos\\AwesomeShop.Services.Orders\\AwesomeShop.Orders.Application\\AwesomeShop.Orders.Application.csproj": {
-              "projectPath": "D:\\Método.NETDireto\\Curso completo (Slides - vídeos)\\4 - FORMAÇÃO MICROSSERVIÇOS\\Projetos\\AwesomeShop.Services.Orders\\AwesomeShop.Orders.Application\\AwesomeShop.Orders.Application.csproj"
+            "d:\\Método.NETDireto\\Curso completo (Slides - vídeos)\\4 - FORMAÇÃO MICROSSERVIÇOS\\Projetos\\AwesomeShop.Services.Orders\\AwesomeShop.Orders.Application\\AwesomeShop.Orders.Application.csproj": {
+              "projectPath": "d:\\Método.NETDireto\\Curso completo (Slides - vídeos)\\4 - FORMAÇÃO MICROSSERVIÇOS\\Projetos\\AwesomeShop.Services.Orders\\AwesomeShop.Orders.Application\\AwesomeShop.Orders.Application.csproj"
+            },
+            "d:\\Método.NETDireto\\Curso completo (Slides - vídeos)\\4 - FORMAÇÃO MICROSSERVIÇOS\\Projetos\\AwesomeShop.Services.Orders\\AwesomeShop.Orders.Infrastructure\\AwesomeShop.Orders.Infrastructure.csproj": {
+              "projectPath": "d:\\Método.NETDireto\\Curso completo (Slides - vídeos)\\4 - FORMAÇÃO MICROSSERVIÇOS\\Projetos\\AwesomeShop.Services.Orders\\AwesomeShop.Orders.Infrastructure\\AwesomeShop.Orders.Infrastructure.csproj"
             },
             "d:\\Método.NETDireto\\Curso completo (Slides - vídeos)\\4 - FORMAÇÃO MICROSSERVIÇOS\\Projetos\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders.Core\\AwesomeShop.Services.Orders.Core.csproj": {
               "projectPath": "d:\\Método.NETDireto\\Curso completo (Slides - vídeos)\\4 - FORMAÇÃO MICROSSERVIÇOS\\Projetos\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders.Core\\AwesomeShop.Services.Orders.Core.csproj"
@@ -9768,10 +9785,6 @@
           "MediatR.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[11.1.0, )"
-          },
-          "Microsoft.AspNetCore.Mvc": {
-            "target": "Package",
-            "version": "[2.2.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
