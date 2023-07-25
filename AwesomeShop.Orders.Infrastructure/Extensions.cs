@@ -10,21 +10,12 @@ namespace AwesomeShop.Orders.Infrastructure
     {
         public static IServiceCollection AddMongo(this IServiceCollection services)
         {
-            services.AddSingleton(
+            services.AddSingleton(sp =>
             {
-                // var configuration = sp.GetService<IConfiguration>();
-                // var options = new MongoDbOptions();
-
-                // configuration.GetSection("Mongo").Bind(options);
-
-                // return options;
-
-                sp =>
                 var configuration = sp.GetRequiredService<IConfiguration>();
                 var options = new MongoDbOptions();
 
-                var mongoConfigSection = configuration.GetSection("Mongo");
-                options = mongoConfigSection.Get<MongoDbOptions>();
+                configuration.GetSection("Mongo").GetConnectionString("ConnectionString");
 
                 return options;
             });
