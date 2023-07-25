@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AwesomeShop.Services.Orders.API.props" />
+</Project>

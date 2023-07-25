@@ -11,12 +11,12 @@ namespace AwesomeShop.Services.Orders.Core.Entities
 {
     public class Order : AggregateRoot
     {
-        public Order(Customer customer, DeliveryAddres deliveryAddres, PaymentAddress paymentAddress, PaymentInfo paymentInfo, List<OrderItem> items)
+        public Order(Customer customer, DeliveryAddress deliveryAddress, PaymentAddress paymentAddress, PaymentInfo paymentInfo, List<OrderItem> items)
         {
             Id = Guid.NewGuid();
             TotalPrice = items.Sum(i => i.Quantity * i.Price);
             Customer = customer;
-            DeliveryAddres = deliveryAddres;
+            DeliveryAddres = deliveryAddress;
             PaymentAddress = paymentAddress;
             PaymentInfo = paymentInfo;
             Items = items;
@@ -27,7 +27,7 @@ namespace AwesomeShop.Services.Orders.Core.Entities
 
         public decimal TotalPrice { get; private set; }
         public Customer Customer { get; private set; }
-        public DeliveryAddres DeliveryAddres { get; private set; }
+        public DeliveryAddress DeliveryAddres { get; private set; }
         public PaymentAddress PaymentAddress { get; private set; }
         public PaymentInfo PaymentInfo { get; private set; }
         public List<OrderItem> Items { get; private set; }

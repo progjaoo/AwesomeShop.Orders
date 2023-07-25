@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using AwesomeShop.Orders.Application.Dto.ViewModels;
 using AwesomeShop.Services.Orders.Core.Repositories;
 using MediatR;

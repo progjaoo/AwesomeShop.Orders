@@ -25,12 +25,12 @@ namespace AwesomeShop.Services.Orders.Core.ValueObjects
 
         public override bool Equals(object? obj)
         {
-            return obj is DeliveryAddres addres &&
-                   Street == addres.Street &&
-                   Number == addres.Number &&
-                   City == addres.City &&
-                   State == addres.State &&
-                   ZipCode == addres.ZipCode;
+            return obj is DeliveryAddress address &&
+                   Street == address.Street &&
+                   Number == address.Number &&
+                   City == address.City &&
+                   State == address.State &&
+                   ZipCode == address.ZipCode;
         }
 
         public override int GetHashCode()
