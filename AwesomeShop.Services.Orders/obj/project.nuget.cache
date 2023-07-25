@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xr14rTIqo62b/SYg61VG/V4kXpjKNehmxivfY5nQRdehqYgk9vgxoUhHMTMipOUG2va0ebcP8VgqNLyN60SOxQ==",
+  "dgSpecHash": "pixsERIqhLAnhfUDpKk6Mml+j25RpowPPaxngS58fO+rMESs3dnU/h670hnexuWY3RZsmiPfZmaWK7YkDHAmWg==",
   "success": true,
-  "projectFilePath": "d:\\Método.NETDireto\\Curso completo (Slides - vídeos)\\4 - FORMAÇÃO MICROSSERVIÇOS\\Projetos\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders.csproj",
+  "projectFilePath": "d:\\Método.NETDireto\\Curso completo (Slides - vídeos)\\4 - FORMAÇÃO MICROSSERVIÇOS\\Projetos\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaom\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\joaom\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

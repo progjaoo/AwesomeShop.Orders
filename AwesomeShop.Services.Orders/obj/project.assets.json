@@ -443,9 +443,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Método.NETDireto\\Curso completo (Slides - vídeos)\\4 - FORMAÇÃO MICROSSERVIÇOS\\Projetos\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders.csproj",
-      "projectName": "AwesomeShop.Services.Orders",
-      "projectPath": "D:\\Método.NETDireto\\Curso completo (Slides - vídeos)\\4 - FORMAÇÃO MICROSSERVIÇOS\\Projetos\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders.csproj",
+      "projectUniqueName": "D:\\Método.NETDireto\\Curso completo (Slides - vídeos)\\4 - FORMAÇÃO MICROSSERVIÇOS\\Projetos\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders.API.csproj",
+      "projectName": "AwesomeShop.Services.Orders.API",
+      "projectPath": "D:\\Método.NETDireto\\Curso completo (Slides - vídeos)\\4 - FORMAÇÃO MICROSSERVIÇOS\\Projetos\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders.API.csproj",
       "packagesPath": "C:\\Users\\joaom\\.nuget\\packages\\",
       "outputPath": "D:\\Método.NETDireto\\Curso completo (Slides - vídeos)\\4 - FORMAÇÃO MICROSSERVIÇOS\\Projetos\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using AwesomeShop.Services.Orders.Core.Events;
+﻿using AwesomeShop.Services.Orders.Core.Events;
 
 namespace AwesomeShop.Services.Orders.Core.Entities
 {
