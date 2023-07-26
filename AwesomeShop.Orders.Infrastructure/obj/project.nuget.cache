@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eKwqu9Qjaz4StUpwnosXBL28pMe/TITzp3K/1KbImD0Yz2Jf4XYcIPP/5QlFZUk9dbgBXTPpFfTmBAjRoIQ6tg==",
+  "dgSpecHash": "+XJlSCTBAZVsg7rmwzO5XwlQsF6/ezpEmqb7TVUg6RSl+ZopuFocxBotDyXmAq+B5gmFSS8OPuVryFbxyVT+qA==",
   "success": true,
   "projectFilePath": "d:\\Método.NETDireto\\Curso completo (Slides - vídeos)\\4 - FORMAÇÃO MICROSSERVIÇOS\\Projetos\\AwesomeShop.Services.Orders\\AwesomeShop.Orders.Infrastructure\\AwesomeShop.Orders.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\joaom\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\joaom\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\joaom\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\joaom\\.nuget\\packages\\microsoft.extensions.configuration.binder\\7.0.4\\microsoft.extensions.configuration.binder.7.0.4.nupkg.sha512",
     "C:\\Users\\joaom\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\joaom\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\joaom\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",

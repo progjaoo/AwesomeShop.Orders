@@ -15,10 +15,10 @@ namespace AwesomeShop.Orders.Infrastructure
         {
             services.AddSingleton(sp =>
             {
-                var configuration = sp.GetRequiredService<IConfiguration>();
+                var configuration = sp.GetService<IConfiguration>();
                 var options = new MongoDbOptions();
 
-                configuration.GetSection("Mongo").GetConnectionString("ConnectionString");
+                configuration.GetSection("Mongo").Bind(options);
 
                 return options;
             });
@@ -46,6 +46,5 @@ namespace AwesomeShop.Orders.Infrastructure
 
             return services;
         }
-
     }
 }

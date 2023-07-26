@@ -108,7 +108,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "d:\\Método.NETDireto\\Curso completo (Slides - vídeos)\\4 - FORMAÇÃO MICROSSERVIÇOS\\Projetos\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders.Core\\AwesomeShop.Services.Orders.Core.csproj": {
+                "projectPath": "d:\\Método.NETDireto\\Curso completo (Slides - vídeos)\\4 - FORMAÇÃO MICROSSERVIÇOS\\Projetos\\AwesomeShop.Services.Orders\\AwesomeShop.Services.Orders.Core\\AwesomeShop.Services.Orders.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -120,6 +124,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.20.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
